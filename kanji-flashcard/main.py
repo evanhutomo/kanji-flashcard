@@ -77,7 +77,7 @@ def menu():
         amt_q = int(amt_q)
         while amt_q > len(qlist):
             amt_q = int(raw_input(dict_menu["response"]["quiz"][1] % len(qlist)).lower().strip())
-        main2(amt_q)
+        menuquiz(amt_q)
     elif str(input_option) == '3':
         search_page('search')
     else:
@@ -191,7 +191,7 @@ def search_page(type):
                         print(k + " : " + dict_kanjis[id_word][k])
 
                 print(dict_menu["banner"]["6"])
-                _tempname = dict_kanjis[id_word]["kj"]
+                _tempname = dict_kanjis[id_word]["kj"].decode('utf-8')
                 del_input = raw_input(dict_menu["question"]["delete_data"][0] % _tempname)
                 if del_input == "y":
                     for i in qlist:
@@ -221,7 +221,6 @@ def recentpos(param):
         menu()
     elif param == "q":
         quit()
-
 
 def insert_data():
     print(dict_menu["menu"]["input_data"][0])
@@ -295,7 +294,7 @@ def get_answer(ans, idq, type):
         else:
             print "WRONG, it's " + sol['en']
 
-def main2(amt_q):
+def menuquiz(amt_q):
     qlist = []
 
     for key, value in dict_kanjis.items():
@@ -318,7 +317,7 @@ def main2(amt_q):
 
         en_input = raw_input("ENGLISH of %s" % str(question['kj']) + " is : ").lower().strip()
         if en_input == 'q': break
-        get_answer(rm_input, idq, 'en')
+        get_answer(en_input, idq, 'en')
 
         if rm_input != 'q' and en_input != 'q':
             if question['rm'] == rm_input and \

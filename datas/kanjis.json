@@ -354,16 +354,6 @@
     "meaning": "beli", 
     "rm": "kau"
   }, 
-  "42": {
-    "en": "to distribute", 
-    "kanji_part": {
-      "\u308b": "ru", 
-      "\u914d": "kuba"
-    }, 
-    "kj": "\u914d\u308b", 
-    "meaning": "menyebarkan", 
-    "rm": "kubaru"
-  }, 
   "43": {
     "en": "admiration", 
     "kanji_part": {
@@ -393,6 +383,26 @@
     "kj": "\u935b\u6cbb", 
     "meaning": "tukang besi", 
     "rm": "kaji"
+  }, 
+  "46": {
+    "en": "architecture", 
+    "kanji_part": {
+      "\u5efa": "ken", 
+      "\u7bc9": "chiku"
+    }, 
+    "kj": "\u5efa\u7bc9", 
+    "meaning": "arsitektur", 
+    "rm": "kenchiku"
+  }, 
+  "47": {
+    "en": "immediately", 
+    "kanji_part": {
+      "\u65e9": "satsu", 
+      "\u901f": "soku"
+    }, 
+    "kj": "\u65e9\u901f", 
+    "meaning": "secepatnya", 
+    "rm": "sassoku"
   }, 
   "5": {
     "en": "reversal", 
