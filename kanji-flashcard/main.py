@@ -29,13 +29,21 @@ def jsonparse(path):
         return data
 
 # ------ KANJI's data ------
+def reload_data():
+    global dict_kanjis
+    global qlist
+    global checklist
+    dict_kanjis = encode_dict(jsonparse('../datas/kanjis.json'))
+    for key, value in dict_kanjis.items():
+        qlist.append(key)
+        checklist.append(int(key))
+# ------ KANJI's data ------
+
+# GLOBAL
 dict_kanjis = encode_dict(jsonparse('../datas/kanjis.json'))
 qlist = []
 checklist = []
-for key, value in dict_kanjis.items():
-    qlist.append(key)
-    checklist.append(int(key))
-# ------ KANJI's data ------
+# GLOBAL
 
 dict_menu = encode_dict(jsonparse('../datas/util.json'))
 # ----------------------------------------------------------------------------------------------------------------------
@@ -206,9 +214,10 @@ def delete_data():
     search_page('delete')
 
 def insert_data():
+    reload_data()
     # TODO: (BUG) when insert data and saved, then insert the same data again, still say Data is NEW!
+    # Bug terjadi karena data yang baru nda di load ulang, jadi yang di variabel masi pake data yang sama
     print(dict_menu["menu"]["input_data"][0])
-    lastid = int(max(checklist)) + 1
 
     kj_input = raw_input(dict_menu["question"]["input_data"][1]).lower().strip()
     if kj_input == 'q':quit()
@@ -224,6 +233,7 @@ def insert_data():
         insert_data()
     else:
         print("Data is NEW!")
+    lastid = int(max(checklist)) + 1  # add 1 on last id, if 言語 are valid unique
 
     kj_spc_input = raw_input(dict_menu["question"]["input_data"][2]).lower().strip()
     if kj_spc_input == 'q': quit()
@@ -327,6 +337,7 @@ def main2(amt_q):
     menu()
 
 if __name__=="__main__":
+    reload_data()
     print(dict_menu["banner"]["5"])
     menu()
 

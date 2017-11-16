@@ -334,6 +334,66 @@
     "meaning": "penelitian", 
     "rm": "kenkyuu"
   }, 
+  "40": {
+    "en": "expectation", 
+    "kanji_part": {
+      "\u5f85": "tai", 
+      "\u671f": "ki"
+    }, 
+    "kj": "\u671f\u5f85", 
+    "meaning": "ekspektasi", 
+    "rm": "kitai"
+  }, 
+  "41": {
+    "en": "buy", 
+    "kanji_part": {
+      "\u3046": "u", 
+      "\u8cb7": "ka"
+    }, 
+    "kj": "\u8cb7\u3046", 
+    "meaning": "beli", 
+    "rm": "kau"
+  }, 
+  "42": {
+    "en": "to distribute", 
+    "kanji_part": {
+      "\u308b": "ru", 
+      "\u914d": "kuba"
+    }, 
+    "kj": "\u914d\u308b", 
+    "meaning": "menyebarkan", 
+    "rm": "kubaru"
+  }, 
+  "43": {
+    "en": "admiration", 
+    "kanji_part": {
+      "\u5fc3": "shin", 
+      "\u611f": "kan"
+    }, 
+    "kj": "\u611f\u5fc3", 
+    "meaning": "kekaguman", 
+    "rm": "kanshin"
+  }, 
+  "44": {
+    "en": "excitement", 
+    "kanji_part": {
+      "\u596e": "fun", 
+      "\u8208": "kou"
+    }, 
+    "kj": "\u8208\u596e", 
+    "meaning": "ketertarikan", 
+    "rm": "koufun"
+  }, 
+  "45": {
+    "en": "blacksmith", 
+    "kanji_part": {
+      "\u6cbb": "ji", 
+      "\u935b": "ka"
+    }, 
+    "kj": "\u935b\u6cbb", 
+    "meaning": "tukang besi", 
+    "rm": "kaji"
+  }, 
   "5": {
     "en": "reversal", 
     "kanji_part": {
