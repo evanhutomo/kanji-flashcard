@@ -1,0 +1,28 @@
+{
+  "menu" : {
+    "option_menu" : ["(1) DATA", "(2) QUIZ", "(3) SEARCH"],
+    "input_data": ["(1) INSERT", "(2) UPDATE", "(3) DELETE"],
+    "quiz" : ["en-jp", "jp-en"],
+    "search" : ["romaji", "kanji"]
+  },
+  "question" : {
+    "input_data" : ["Is this correct?", "input KANJI : ", "input KANJI(separate with space) : ", "input ROMAJI : ", "input ENGLISH : ", "input BAHASA : "],
+    "quiz" : ["How many question do you want? (max: %d) : ", "s"],
+    "search" : ["input KANJI : ", "input ROMAJI : "],
+    "delete_data" : ["Are you sure you want to delete %s ? (y)(n) : "]
+  },
+  "response" : {
+    "quiz" : ["Please input a number!", "Max data is %d, please insert number below it : "]
+  },
+  "banner" : {
+    "1" : "-------------Data saved-------------",
+    "2" : "--------Input pronounciation--------",
+    "3" : "-------------M E N U----------------",
+    "4" : "---------type 'q' to close----------",
+    "5" : "-------Kanji Flashcard v0.1---------",
+    "6" : "------------------------------------",
+    "7" : "------------Data updated------------",
+    "8" : "------------UPDATE PAGE-------------",
+    "9" : "------------Data deleted------------"
+  }
+}

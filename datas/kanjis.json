@@ -1,0 +1,387 @@
+{
+  "1": {
+    "en": "japanese character", 
+    "kanji_part": {
+      "\u5b57": "ji", 
+      "\u6f22": "kan"
+    }, 
+    "kj": "\u6f22\u5b57", 
+    "meaning": "huruf jepang", 
+    "rm": "kanji"
+  }, 
+  "10": {
+    "en": "format", 
+    "kanji_part": {
+      "\u5f0f": "shiki", 
+      "\u5f62": "kei"
+    }, 
+    "kj": "\u5f62\u5f0f", 
+    "meaning": "format", 
+    "rm": "keishiki"
+  }, 
+  "11": {
+    "en": "agree", 
+    "kanji_part": {
+      "\u540c": "dou", 
+      "\u610f": "i"
+    }, 
+    "kj": "\u540c\u610f", 
+    "meaning": "setuju", 
+    "rm": "doui"
+  }, 
+  "12": {
+    "en": "shop", 
+    "kanji_part": {
+      "\u58f2": "bai", 
+      "\u5e97": "ten"
+    }, 
+    "kj": "\u58f2\u5e97", 
+    "meaning": "toko", 
+    "rm": "baiten"
+  }, 
+  "13": {
+    "en": "registration", 
+    "kanji_part": {
+      "\u767b": "tou", 
+      "\u9332": "roku"
+    }, 
+    "kj": "\u767b\u9332", 
+    "meaning": "pendaftaran", 
+    "rm": "touroku"
+  }, 
+  "14": {
+    "en": "required", 
+    "kanji_part": {
+      "\u5fc5": "hitsu", 
+      "\u9808": "su"
+    }, 
+    "kj": "\u5fc5\u9808", 
+    "meaning": "wajib", 
+    "rm": "hissu"
+  }, 
+  "15": {
+    "en": "shipping fee", 
+    "kanji_part": {
+      "\u6599": "ryou", 
+      "\u9001": "sou"
+    }, 
+    "kj": "\u9001\u6599", 
+    "meaning": "biaya pengiriman", 
+    "rm": "souryou"
+  }, 
+  "16": {
+    "en": "payment", 
+    "kanji_part": {
+      "\u6255\u3044": "harai", 
+      "\u652f": "shi"
+    }, 
+    "kj": "\u652f\u6255\u3044", 
+    "meaning": "pembayaran", 
+    "rm": "shiharai"
+  }, 
+  "17": {
+    "en": "summing up, all together", 
+    "kanji_part": {
+      "\u4e00": "ichi", 
+      "\u62ec": "katsu"
+    }, 
+    "kj": "\u4e00\u62ec", 
+    "meaning": "jumlah keseluruhan", 
+    "rm": "ikkatsu"
+  }, 
+  "18": {
+    "en": "details", 
+    "kanji_part": {
+      "\u7d30": "sai", 
+      "\u8a73": "shou"
+    }, 
+    "kj": "\u8a73\u7d30", 
+    "meaning": "rincian", 
+    "rm": "shousai"
+  }, 
+  "19": {
+    "en": "content", 
+    "kanji_part": {
+      "\u5185": "nai", 
+      "\u5bb9": "you"
+    }, 
+    "kj": "\u5185\u5bb9", 
+    "meaning": "konten, isi", 
+    "rm": "naiyou"
+  }, 
+  "2": {
+    "en": "japanese language", 
+    "kanji_part": {
+      "\u65e5": "ni", 
+      "\u672c": "hon", 
+      "\u8a9e": "go"
+    }, 
+    "kj": "\u65e5\u672c\u8a9e", 
+    "meaning": "bahasa jepang", 
+    "rm": "nihongo"
+  }, 
+  "20": {
+    "en": "price", 
+    "kanji_part": {
+      "\u4fa1": "ka", 
+      "\u683c": "kaku"
+    }, 
+    "kj": "\u4fa1\u683c", 
+    "meaning": "harga", 
+    "rm": "kakaku"
+  }, 
+  "21": {
+    "en": "tax included", 
+    "kanji_part": {
+      "\u7a0e": "zei", 
+      "\u8fbc": "komi"
+    }, 
+    "kj": "\u7a0e\u8fbc", 
+    "meaning": "sudah termasuk pajak", 
+    "rm": "zeikomi"
+  }, 
+  "22": {
+    "en": "regular, normal", 
+    "kanji_part": {
+      "\u5e38": "jou", 
+      "\u901a": "tsuu"
+    }, 
+    "kj": "\u901a\u5e38", 
+    "meaning": "biasa, sedang", 
+    "rm": "tsuujou"
+  }, 
+  "23": {
+    "en": "quantity", 
+    "kanji_part": {
+      "\u6570": "suu", 
+      "\u91cf": "ryou"
+    }, 
+    "kj": "\u6570\u91cf", 
+    "meaning": "jumlah", 
+    "rm": "suuryou"
+  }, 
+  "25": {
+    "en": "amount of money", 
+    "kanji_part": {
+      "\u91d1": "kin", 
+      "\u984d": "gaku"
+    }, 
+    "kj": "\u91d1\u984d", 
+    "meaning": "jumlah uang", 
+    "rm": "kingaku"
+  }, 
+  "26": {
+    "en": "receiver's address", 
+    "kanji_part": {
+      "\u5148": "saki", 
+      "\u5c4a\u3051": "todoke"
+    }, 
+    "kj": "\u5c4a\u3051\u5148", 
+    "meaning": "alamat penerima", 
+    "rm": "todokesaki"
+  }, 
+  "27": {
+    "en": "next time(occasion)", 
+    "kanji_part": {
+      "\u56de": "kai", 
+      "\u6b21": "ji"
+    }, 
+    "kj": "\u6b21\u56de", 
+    "meaning": "lain waktu", 
+    "rm": "jikai"
+  }, 
+  "28": {
+    "en": "transportation", 
+    "kanji_part": {
+      "\u8f38": "yu", 
+      "\u904b": "un"
+    }, 
+    "kj": "\u904b\u8f38", 
+    "meaning": "transportasi", 
+    "rm": "unyu"
+  }, 
+  "29": {
+    "en": "delivery", 
+    "kanji_part": {
+      "\u9001": "sou", 
+      "\u914d": "hai"
+    }, 
+    "kj": "\u914d\u9001", 
+    "meaning": "pengiriman", 
+    "rm": "haisou"
+  }, 
+  "3": {
+    "en": "prepare", 
+    "kanji_part": {
+      "\u5099": "bi", 
+      "\u6e96": "jun"
+    }, 
+    "kj": "\u6e96\u5099", 
+    "meaning": "menyiapkan", 
+    "rm": "junbi"
+  }, 
+  "30": {
+    "en": "account payment", 
+    "kanji_part": {
+      "\u6c7a": "ketsu", 
+      "\u6e08": "sai"
+    }, 
+    "kj": "\u6c7a\u6e08", 
+    "meaning": "akun pembayaran", 
+    "rm": "kessai"
+  }, 
+  "31": {
+    "en": "job invoice, bill", 
+    "kanji_part": {
+      "\u66f8": "sho", 
+      "\u6c42": "kyuu", 
+      "\u8acb": "sei"
+    }, 
+    "kj": "\u8acb\u6c42\u66f8", 
+    "meaning": "invoice, tagihan", 
+    "rm": "seikyuusho"
+  }, 
+  "32": {
+    "en": "eventually, after all", 
+    "kanji_part": {
+      "\u5c40": "kyoku", 
+      "\u7d50": "ketsu"
+    }, 
+    "kj": "\u7d50\u5c40", 
+    "meaning": "pada akhirnya, alhasil", 
+    "rm": "kekkyoku"
+  }, 
+  "33": {
+    "en": "recruitment", 
+    "kanji_part": {
+      "\u52df": "bo", 
+      "\u96c6": "shuu"
+    }, 
+    "kj": "\u52df\u96c6", 
+    "meaning": "perekrutan pekerjaan", 
+    "rm": "boshuu"
+  }, 
+  "34": {
+    "en": "elder", 
+    "kanji_part": {
+      "\u5bc4\u308a": "yori", 
+      "\u5e74": "toshi"
+    }, 
+    "kj": "\u5e74\u5bc4\u308a", 
+    "meaning": "orang sepuh", 
+    "rm": "toshiyori"
+  }, 
+  "35": {
+    "en": "charcoal grill", 
+    "kanji_part": {
+      "\u706b": "bi", 
+      "\u70ad": "sumi", 
+      "\u713c\u304d": "yaki"
+    }, 
+    "kj": "\u70ad\u706b\u713c\u304d", 
+    "meaning": "arang panggangan", 
+    "rm": "sumibiyaki"
+  }, 
+  "36": {
+    "en": "inspection", 
+    "kanji_part": {
+      "\u67fb": "sa", 
+      "\u691c": "ken"
+    }, 
+    "kj": "\u691c\u67fb", 
+    "meaning": "inspeksi", 
+    "rm": "kensa"
+  }, 
+  "37": {
+    "en": "self-introduction", 
+    "kanji_part": {
+      "\u4ecb": "kai", 
+      "\u5df1": "ko", 
+      "\u7d39": "shou", 
+      "\u81ea": "ji"
+    }, 
+    "kj": "\u81ea\u5df1\u7d39\u4ecb", 
+    "meaning": "perkenalan diri", 
+    "rm": "jikoshoukai"
+  }, 
+  "38": {
+    "en": "anxiety", 
+    "kanji_part": {
+      "\u4e0d": "fu", 
+      "\u5b89": "an"
+    }, 
+    "kj": "\u4e0d\u5b89", 
+    "meaning": "kecemasan", 
+    "rm": "fuan"
+  }, 
+  "39": {
+    "en": "complexity", 
+    "kanji_part": {
+      "\u8907": "fuku", 
+      "\u96d1": "zatsu"
+    }, 
+    "kj": "\u8907\u96d1", 
+    "meaning": "kerumitan", 
+    "rm": "fukuzatsu"
+  }, 
+  "4": {
+    "en": "research", 
+    "kanji_part": {
+      "\u7814": "ken", 
+      "\u7a76": "kyu"
+    }, 
+    "kj": "\u7814\u7a76", 
+    "meaning": "penelitian", 
+    "rm": "kenkyuu"
+  }, 
+  "5": {
+    "en": "reversal", 
+    "kanji_part": {
+      "\u8ee2": "kyu", 
+      "\u9006": "ken"
+    }, 
+    "kj": "\u9006\u8ee2", 
+    "meaning": "pembalikan", 
+    "rm": "gyakuten"
+  }, 
+  "6": {
+    "en": "danger", 
+    "kanji_part": {
+      "\u5371": "ki", 
+      "\u967a": "ken"
+    }, 
+    "kj": "\u5371\u967a", 
+    "meaning": "bahaya", 
+    "rm": "kiken"
+  }, 
+  "7": {
+    "en": "image", 
+    "kanji_part": {
+      "\u50cf": "zou", 
+      "\u753b": "ga"
+    }, 
+    "kj": "\u753b\u50cf", 
+    "meaning": "citra", 
+    "rm": "gazou"
+  }, 
+  "8": {
+    "en": "attribute", 
+    "kanji_part": {
+      "\u5c5e": "zoku", 
+      "\u6027": "sei"
+    }, 
+    "kj": "\u5c5e\u6027", 
+    "meaning": "atribut", 
+    "rm": "zokusei"
+  }, 
+  "9": {
+    "en": "presentation", 
+    "kanji_part": {
+      "\u767a": "hatsu", 
+      "\u8868": "hyou"
+    }, 
+    "kj": "\u767a\u8868", 
+    "meaning": "presentasi", 
+    "rm": "happyou"
+  }
+}
