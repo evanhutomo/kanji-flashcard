@@ -80,3 +80,7 @@ def data_structure():
            "Please fill the parameter below\n" \
            "-----------------------------------"
     print(desc)
+
+phase 2:
+    create a note in english
+    create a blog on Qiita about this apps

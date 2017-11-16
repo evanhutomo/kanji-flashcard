@@ -53,6 +53,7 @@ def test():
     print(os.path.isfile(path))
 
 def menu():
+    reload_data()
     print(dict_menu["banner"]["3"] + "\n" + \
           dict_menu["banner"]["4"] + "\n" + \
           dict_menu["menu"]["option_menu"][0] + "\n" + \
@@ -137,7 +138,7 @@ def search_page(type):
             if input_option == 'y':
                 insert_data()
             else:
-                menu()
+                recentpos("m")
         else:
             print(_tpname + " \'%s\' FOUND!" % search_input)
             print dict_menu["banner"]["6"]
@@ -182,15 +183,16 @@ def search_page(type):
                 datajson.update(new_dict_input)
                 with open('../datas/kanjis.json', 'w') as f:
                     json.dump(datajson, f, sort_keys=True, indent=2)
-                print dict_menu["banner"]["7"]
-                menu()
+                print dict_menu["banner"]["6"]
+                recentpos("m")
             elif type == 'delete':
                 for k in dict_kanjis[id_word]:
                     if k != "kanji_part":
                         print(k + " : " + dict_kanjis[id_word][k])
 
                 print(dict_menu["banner"]["6"])
-                del_input = raw_input(dict_menu["question"]["delete_data"][0] % _tpname)
+                _tempname = dict_kanjis[id_word]["kj"]
+                del_input = raw_input(dict_menu["question"]["delete_data"][0] % _tempname)
                 if del_input == "y":
                     for i in qlist:
                         dict_kanjis.pop(id_word)
@@ -200,10 +202,11 @@ def search_page(type):
                         json.dumps(dict_kanjis, sort_keys=True, indent=4, separators=(',', ': '))
                     )
                 if del_input == "n":
-                    menu()
-
+                    recentpos("m")
+            elif type == 'search':
+                recentpos("m")
     else:
-        menu()
+        recentpos("m")
 
 def update_data():
     print(dict_menu["menu"]["input_data"][1])
@@ -213,10 +216,14 @@ def delete_data():
     print(dict_menu["menu"]["input_data"][2])
     search_page('delete')
 
+def recentpos(param):
+    if param == "m":
+        menu()
+    elif param == "q":
+        quit()
+
+
 def insert_data():
-    reload_data()
-    # TODO: (BUG) when insert data and saved, then insert the same data again, still say Data is NEW!
-    # Bug terjadi karena data yang baru nda di load ulang, jadi yang di variabel masi pake data yang sama
     print(dict_menu["menu"]["input_data"][0])
 
     kj_input = raw_input(dict_menu["question"]["input_data"][1]).lower().strip()
@@ -268,7 +275,7 @@ def insert_data():
     with open('../datas/kanjis.json', 'w') as f:
         json.dump(datajson, f, sort_keys=True, indent=2)
     print dict_menu["banner"]["1"]
-    menu()
+    recentpos("m")
 
 def get_answer(ans, idq, type):
     qlist = []
@@ -334,12 +341,12 @@ def main2(amt_q):
 
     print('TRUE  : %d' % true_score)
     print('FALSE : %d' % false_score)
-    menu()
+    recentpos("m")
 
 if __name__=="__main__":
     reload_data()
     print(dict_menu["banner"]["5"])
-    menu()
+    recentpos("m")
 
     # readfile()
     # jsonwrite()
