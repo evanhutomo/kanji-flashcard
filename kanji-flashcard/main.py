@@ -347,32 +347,6 @@ if __name__=="__main__":
     print(dict_menu["banner"]["5"])
     recentpos("m")
 
-    # readfile()
-    # jsonwrite()
-
-    # for key in dict.iterkeys():
-    #     print key
-    # for value in dict.itervalues():
-    #     print value
-
-    # write to JSON
-    # a_dict = {'new_key':'new_value',
-    #           'root':[
-    #               1,2,3,4,5
-    #           ],
-    #           'aaa':{
-    #               'bb':'bb value',
-    #               'cc':'cc value'
-    #           }
-    #           }
-    #
-    # with open('test.json') as f:
-    #     data = json.load(f)
-    #
-    # data.update(a_dict)
-    #
-    # with open('test.json', 'w') as f:
-    #     json.dump(data, f)
 
 
 
